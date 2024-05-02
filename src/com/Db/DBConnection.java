@@ -9,7 +9,7 @@ public class DBConnection {
 		try {
 			if(conn==null) {
 				Class.forName("com.mysql.cj.jdbc.Driver");
-				conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/enotes","root","root");
+				conn=DriverManager.getConnection("jdbc:mysql://viaduct.proxy.rlwy.net:14480/railway","root","JhRpxqxyeyyvmcNQQNVdOYqvsaHmVxkp");
 			}
 		}catch(Exception e) {
 			e.printStackTrace();
